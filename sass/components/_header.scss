@@ -1,0 +1,36 @@
+.header-area {
+	background-color: #f5f5f5;
+}
+#masthead {
+	
+
+	&.site-header {
+		margin: 0;
+		padding: 0;
+	}
+	.site-branding {
+		margin: 0;
+		padding: 15px 0;
+		#logo {
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+	
+}
+
+// nav bar
+nav.navbar.navbar-default {
+	margin-bottom: 0;
+
+	.active {
+		a {
+			color: $mainColor;
+		}
+	}
+	button.navbar-toggle {
+		color: #fff;
+	}
+}

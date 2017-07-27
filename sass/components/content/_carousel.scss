@@ -1,0 +1,60 @@
+.myFluidContainer {
+	height: 200px;
+	position: relative;
+	
+	.mask {
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		background-color: rgba(0,0,0,.6);
+		z-index: 2;
+	}
+	.home_image_inner {
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		z-index: 3;
+	    background-position: center top;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    display: flex;
+        flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+
+	   .kengres-title-wrapper, .img_post-content-wrapper  {
+			width: 90%;
+			text-align: justify;
+			background-color: rgba(255,255,255,.6);
+			padding: 10px 15px;
+			font-family: 'Comfortaa', cursive;
+			font-weight: 700;
+			text-shadow: 1px 1px 1px 1px #ccc;
+
+			@media (min-width: 768px) {
+				width: 60%;
+			}
+			@media (min-width: 1024px) {
+				width: 40%;
+			}
+
+	   }
+	   .kengres-title-wrapper  {
+			text-align: center;
+			
+	   }
+	   .img_post-content-wrapper {
+			
+	   }
+	}
+	&.container-fluid {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	@media (min-width: 768px) {
+		height: 300px;
+	}
+	@media (min-width: 1024px) {
+		height: 500px;
+	}
+
+}

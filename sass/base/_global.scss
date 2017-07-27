@@ -1,0 +1,116 @@
+
+.boxModel {
+	box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.34), 1px 3px 1px -2px rgba(0, 0, 0, 0.5), 1px 1px 5px 1px rgba(0, 0, 0, 0.42);
+}
+
+
+.boxModel_primary {
+	@include bg_primary;
+	box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.34), 1px 3px 1px -2px rgba(0, 0, 0, 0.5), 1px 1px 5px 1px rgba(0, 0, 0, 0.42);
+}
+.boxModel_smoke {
+	@include bg_smoke;
+	box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.34), 1px 3px 1px -2px rgba(0, 0, 0, 0.5), 1px 1px 5px 1px rgba(0, 0, 0, 0.42);
+}
+
+
+.pageSection {margin-top: 30px; margin-bottom: 30px;}
+
+.margin_top_zero {margin-top: 0px; }
+.margin_bottom_zero {margin-bottom: 0px; }
+.margin_top_10 {margin-bottom: 10px; }
+.margin_top_20 {margin-top: 20px; }
+.margin_top_30 {margin-top: 30px; }
+.margin_top_50 {margin-top: 50px; }
+.margin_top_80 {margin-top: 80px; }
+.margin_bottom_10 {margin-bottom: 10px; }
+.margin_bottom_20 {margin-bottom: 20px; }
+.margin_bottom_30 {margin-bottom: 30px; }
+.margin_bottom_50 {margin-bottom: 50px; }
+.margin_bottom_80 {margin-bottom: 80px; }
+
+.padding_top_10 {padding-top: 10px; }
+.padding_top_20 {padding-top: 20px; }
+.padding_top_30 {padding-top: 30px; }
+.padding_top_50 {padding-top: 50px; }
+.padding_top_40 {padding-top: 40px; }
+.padding_top_60 {padding-top: 60px; }
+.padding_top_80 {padding-top: 80px; }
+.padding_bottom_10 {padding-bottom: 10px; }
+.padding_bottom_20 {padding-bottom: 20px; }
+.padding_bottom_30 {padding-bottom: 30px; }
+.padding_bottom_50 {padding-bottom: 50px; }
+.padding_bottom_60 {padding-bottom: 60px; }
+.padding_bottom_80 {padding-bottom: 80px; }
+
+.text_italic {
+	font-style: italic;
+}
+.text_bold  {
+	font-weight: bold;
+}
+.text_upper {
+	text-transform: uppercase;
+}
+
+h1, .h1 {
+	font-size: 34px;
+	line-height: 40px;
+}
+h2, .h2 {
+	font-size: 32px;
+	line-height: 35px;
+}
+h3, .h3 {
+	font-size: 28px;
+	line-height: 30px;
+}
+h4, .h4 {
+	font-size: 24px;
+	line-height: 25px;
+}
+h5, .h5 {
+	font-size: 20px;
+	line-height: 20px;
+}
+h6, .h6 {
+	font-size: 18px;
+	line-height: 20px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	font-family: 'Prompt', sans-serif;
+}
+.alignright {
+	text-align: right;
+}
+.alignleft {
+	text-align: left;
+}
+.aligncenter {
+	text-align: center;
+}
+
+.boxPadding {
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+.bg-padding {
+	padding: 15px 10px;
+}
+
+.flexParent {
+	display: flex;
+	
+}
+.entry-title {
+  font-size: 45px;
+  font-weight: 100;
+  color: #54397E;
+
+  a {
+  	&:hover {
+  		text-decoration: none;
+  		
+  	}
+  }
+}

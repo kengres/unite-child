@@ -1,0 +1,44 @@
+#main {
+	padding-top: 20px;
+	font-family: 'Comfortaa', cursive;
+
+
+	@media (min-width: 1024px) {
+		padding-top: 35px;
+		font-size: 18px;
+	}
+	.recentNews {
+		background-color: rgba(158, 158, 158, 0.2);
+		padding: 30px 15px;
+		font-size: 14px;
+
+		.text-info {
+			font-style: italic;
+			
+		}
+		
+		article {
+			hr.section-divider {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				border-color: #54397E;
+			}
+			&:last-of-type {
+				hr {
+					display: none;
+					
+				}
+				
+			}
+		}
+	}
+	p {
+		margin-bottom: 25px;
+	}
+	.entry-content {
+		font-family: 'Comfortaa', cursive;
+	}
+}
+#content {
+	min-height: 100vh;
+}
